@@ -1,0 +1,75 @@
+.biografia { 
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.bloque-imagen { 
+    flex: 1;
+}
+
+.bloque-texto { 
+    flex: 2;
+    padding: 20px;
+    background-color: #be0404;
+}
+.bloque-texto-2 {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+img {
+    max-width: 120%;
+    height: auto;
+}
+
+h1 { 
+    font-size: 24px;
+    margin-top: 0;
+}
+
+p { 
+    font-size: 16px;
+}
+
+Body {background-color : black;}
+
+.biografia {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 11s ease; transform: 11s ease;
+}
+
+.biografia.mostrar { 
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.biografia:hover {
+    background-color: #1239C0 ;
+    transition: background-color 0.5s ease;
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.biografia:active {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.biografia h1:hover {
+    color: #D3F20B;
+    transform: scale(1.1);
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+
+.biografia {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
