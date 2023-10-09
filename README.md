@@ -1,0 +1,2 @@
+Esta pagina se creo con el unico proposito de ver la biografia de Cristiano Ronaldo, es una pagina basica creada unicamente con HTML, CSS y un poco de javascript para las animaciones. Yo estoy apenas comenzando en esto de la programación y esta es la primer pagina que hago en mi vida
+esto para mi es un logro, yo veo la pagina y pienso que ya soy un profesional en esto.
